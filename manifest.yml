@@ -1,5 +1,6 @@
 applications:
 - name: node-env
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
-  memory: 32M
-  stack: cflinuxfs2
+  buildpacks:
+  - nodejs_buildpack
+  memory: 16M 
+  disk_quota: 128M

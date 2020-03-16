@@ -1,8 +1,8 @@
 {
   "name": "node-env",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
-    "node": "5.x"
+    "node": ">=10.10.0 <13.11.0"
   },
   "dependencies": {}
 }
